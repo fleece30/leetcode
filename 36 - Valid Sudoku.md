@@ -12,6 +12,11 @@ Note:
 - A Sudoku board (partially filled) could be valid but is not necessarily solvable.
 - Only the filled cells need to be validated according to the mentioned rules.
 
+## Tags
+- Array
+- Hash Table
+- Matrix
+
 ## Strat
 
 Create sets for every row, col and square and for each element, check if it exists in any. If yes, return false
