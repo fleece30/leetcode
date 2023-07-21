@@ -14,8 +14,8 @@ Create 2 maps and add characters from the 2 string in them. Compare the 2 and re
 
 ## Complexity
 
-- Time: O(n)
-- Space: O(n)
+- Time: O(s)
+- Space: O(s+t)
 
 ## Code
 
