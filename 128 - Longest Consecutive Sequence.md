@@ -10,7 +10,7 @@ You must write an algorithm that runs in O(n) time.
 
 ## Strat
 
-Convert to set. Any element would be the start of a sequence if it has no left neighbour i.e. (num-1) doesnt exist in the set. So, we use this to find the starts. After a start is found, we iterate while (num + length of subsequence) exists in the map and update the local length of subsequence. Finally, after no more consequtive elements are found, we update the global longest length.
+Convert to set. Any element would be the start of a sequence if it has no left neighbour i.e. (num-1) doesnt exist in the set. So, we use this to find the starts. After a start is found, we iterate while (num + length of subsequence) exists in the map and update the local length of subsequence. Finally, after no more consecutive elements are found, we update the global longest length.
 
 ## Complexity
 
