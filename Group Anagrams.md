@@ -11,27 +11,27 @@ An Anagram is a word or phrase formed by rearranging the letters of a different 
 
 ## Strat
 
-Keep a hashmap where key is a list of size 26 with the count of each character of the current string. So, each string with the same characters will have the same list and the values for this map would be a list of all these strings.
-
-eg. eat and ate will have list where 0th, 4th and 19th index is 1. Same list -> Anagrams
+Sort every string, save in hashmap with sorted value as key. Retrun values in the hashmaps appended in a list
 
 ## Complexity
 
-- Time: O(m*n) where m is size of input list and n is size of largest input string
-- Space: O(m)
+- Time: O(n * k log k) where n is size of input list and k is the length of longest string
+- Space: O(n)
 
 ## Code
 
 ```python
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        map = collections.defaultdict(list)
-
+        res = []
+        hash_map = {}
         for string in strs:
-            count = [0] * 26
-            for char in string:
-                count[ord(char) - ord("a")] += 1
-            map[tuple(count)].append(string)
-        
-        return map.values()
+            sorted_str = ''.join(sorted(string))
+            if sorted_str in hash_map:
+                hash_map[sorted_str].append(string)
+            else:
+                hash_map[sorted_str] = [string]
+        for key in hash_map:
+            res.append(hash_map[key])
+        return res
 ```
