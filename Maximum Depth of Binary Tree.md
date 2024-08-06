@@ -30,4 +30,19 @@ class Solution:
             return 0
         max_len = max(self.maxDepth(root.right), self.maxDepth(root.left)) + 1
         return max_len
+```# Maximum Depth of Binary Tree
+
+## Tags
+
+## Strat
+
+## Complexity
+
+- Time: 
+- Space: 
+
+## Code
+
+```python
+
 ```
