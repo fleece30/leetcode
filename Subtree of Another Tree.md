@@ -11,8 +11,8 @@ For every node, check if its the same tree as the input subTree
 
 ## Complexity
 
-- Time: O(n)
-- Space: O(n) or O(logn)
+- Time: O(m * n)
+- Space: O(h) h is height of root tree
 
 ## Code
 
