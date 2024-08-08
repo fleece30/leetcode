@@ -6,6 +6,7 @@ Given n nodes labeled from 0 to n - 1 and a list of undirected edges (each edge 
 
 ## Strat
 Add edges to map
+
 Provide a prev parameter to dfs which is the prev node of the current node so that it doesnt go back there and detect an edge. If loop found, return false
 
 ## Complexity
