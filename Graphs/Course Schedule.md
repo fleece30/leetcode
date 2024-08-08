@@ -20,8 +20,8 @@ add curr to visiting, dfs on its prereqs, remove curr from visiting
 
 ## Complexity
 
-- Time: 
-- Space: 
+- Time: O(V + E)
+- Space: O(n)
 
 ## Code
 
