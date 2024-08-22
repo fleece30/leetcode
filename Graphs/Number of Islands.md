@@ -12,7 +12,7 @@ An island is formed by connecting adjacent lands horizontally or vertically and 
 
 ## Complexity
 
-- Time: O(V+E)
+- Time: O(rows * cols)
 - Space: O(n)
 
 ## Code
