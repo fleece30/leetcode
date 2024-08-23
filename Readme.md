@@ -60,7 +60,7 @@ Collection of leetcode problem solved for interview prep!
 
 | Done | Problem | Difficulty | NeetCode Link |
 |------|---------|------------|---------------|
-| | [Binary Search]() | 🟢 | [NeetCode Link](https://neetcode.io/problems/binary-search) |
+| ✅ | [Binary Search](https://github.com/fleece30/leetcode/blob/master/Binary%20Search/Binary%20Search.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/binary-search) |
 | ✅ | [Search a 2D Matrix](https://github.com/fleece30/leetcode/blob/master/Binary%20Search/Search%20a%202D%20Matrix.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/search-2d-matrix) |
 | | [Koko Eating Bananas]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/eating-bananas) |
 | | [Find Minimum In Rotated Sorted Array]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/find-minimum-in-rotated-sorted-array) |
