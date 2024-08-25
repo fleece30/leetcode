@@ -20,9 +20,9 @@ add curr to visiting, dfs on its prereqs, remove curr from visiting
 
 ## Complexity
 
-- Time: O(V + E)
+- Time: O(n)
 - Space: O(n)
-
+ 
 ## Code
 
 ```python
