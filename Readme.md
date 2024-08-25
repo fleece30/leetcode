@@ -43,7 +43,7 @@ Collection of leetcode problem solved for interview prep!
 | | [Permutation In String]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/permutation-string) |
 | | [Minimum Window Substring]() | 🔴 | [NeetCode Link](https://neetcode.io/problems/minimum-window-with-characters) |
 | | [Sliding Window Maximum]() | 🔴 | [NeetCode Link](https://neetcode.io/problems/sliding-window-maximum) |
-Longest Repeating Character Replacement
+
 ### Stack
 
 | Done | Problem | Difficulty | NeetCode Link |
