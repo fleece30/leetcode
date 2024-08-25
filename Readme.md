@@ -40,7 +40,7 @@ Collection of leetcode problem solved for interview prep!
 | ✅ | [Best Time to Buy And Sell Stock](https://github.com/fleece30/leetcode/blob/master/Sliding%20Window/Best%20Time%20to%20Buy%20and%20Sell%20Stock.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/buy-and-sell-crypto) |
 | ✅ | [Longest Substring Without Repeating Characters](https://github.com/fleece30/leetcode/blob/master/Sliding%20Window/Longest%20Substring%20Without%20Repeating%20Characters.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/longest-substring-without-duplicates) |
 | ✅ | [Longest Repeating Character Replacement](https://github.com/fleece30/leetcode/blob/master/Sliding%20Window/Longest%20Repeating%20Character%20Replacement.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/longest-repeating-substring-with-replacement) |
-| | [Permutation In String]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/permutation-string) |
+| ✅ | [Permutation In String](https://github.com/fleece30/leetcode/blob/master/Sliding%20Window/Permutation%20In%20String.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/permutation-string) |
 | | [Minimum Window Substring]() | 🔴 | [NeetCode Link](https://neetcode.io/problems/minimum-window-with-characters) |
 | | [Sliding Window Maximum]() | 🔴 | [NeetCode Link](https://neetcode.io/problems/sliding-window-maximum) |
 
