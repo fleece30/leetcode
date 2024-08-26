@@ -5,7 +5,7 @@ Collection of leetcode problem solved for interview prep!
 
 ## Problems solved:
 - 🟢 Easy: 20
-- 🟠 Medium: 29
+- 🟠 Medium: 30
 - 🔴 Hard: 0
 
 ### Arrays & Hashing
@@ -64,7 +64,7 @@ Collection of leetcode problem solved for interview prep!
 | ✅ | [Search a 2D Matrix](https://github.com/fleece30/leetcode/blob/master/Binary%20Search/Search%20a%202D%20Matrix.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/search-2d-matrix) |
 | | [Koko Eating Bananas]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/eating-bananas) |
 | ✅ | [Find Minimum In Rotated Sorted Array](https://github.com/fleece30/leetcode/blob/master/Binary%20Search/Find%20Minimum%20In%20Rotated%20Sorted%20Array.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/search-2d-matrix) | 🟠 | [NeetCode Link](https://neetcode.io/problems/find-minimum-in-rotated-sorted-array) |
-| ✅ | [Find Target in Rotated Sorted Array](https://github.com/fleece30/leetcode/blob/master/Binary%20Search/Find%20Target%20In%20Rotated%20Sorted%20Array.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/find-target-in-rotated-sorted-array) |
+| ✅ | [Find Target in Rotated Sorted Array](https://github.com/fleece30/leetcode/blob/master/Binary%20Search/Find%20Target%20in%20Rotated%20Sorted%20Array.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/find-target-in-rotated-sorted-array) |
 | ✅ | [Time Based Key Value Store](https://github.com/fleece30/leetcode/blob/master/Binary%20Search/Time%20Based%20Key-Value%20Store.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/time-based-key-value-store) |
 | | [Median of Two Sorted Arrays]() | 🔴 | [NeetCode Link](https://neetcode.io/problems/median-of-two-sorted-arrays) |
 
