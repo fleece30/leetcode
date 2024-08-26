@@ -53,7 +53,7 @@ Collection of leetcode problem solved for interview prep!
 | ✅ | [Evaluate Reverse Polish Notation](https://github.com/fleece30/leetcode/blob/master/Stacks/Evaluate%20Reverse%20Polish%20Notation.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/evaluate-reverse-polish-notation) |
 | ✅ | [Generate Parentheses](https://github.com/fleece30/leetcode/blob/master/Stacks/Generate%20Parentheses.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/generate-parentheses) |
 | ✅ | [Daily Temperatures](https://github.com/fleece30/leetcode/blob/master/Stacks/Daily%20Temperatures.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/daily-temperatures) |
-| | [Car Fleet]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/car-fleet) |
+| ✅ | [Car Fleet](https://github.com/fleece30/leetcode/blob/master/Stacks/Car%20Fleet.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/car-fleet) |
 | | [Largest Rectangle In Histogram]() | 🔴 | [NeetCode Link](https://neetcode.io/problems/largest-rectangle-in-histogram) |
 
 ### Binary Search
