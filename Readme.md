@@ -78,7 +78,7 @@ Collection of leetcode problem solved for interview prep!
 | | [Remove Nth Node From End of List]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/remove-node-from-end-of-linked-list) |
 | | [Copy List With Random Pointer]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/copy-linked-list-with-random-pointer) |
 | | [Add Two Numbers]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/add-two-numbers) |
-| ✅ | [Linked List Cycle](https://github.com/fleece30/leetcode/blob/master/Linked%20List/Linked%20list%20has%20cycle%3F.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/linked-list-cycle-detection) |
+| ✅ | [Linked List Cycle](https://github.com/fleece30/leetcode/blob/master/Linked%20List/Linked%20list%20has%20cycle.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/linked-list-cycle-detection) |
 | | [Find The Duplicate Number]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/find-duplicate-integer) |
 | | [LRU Cache]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/lru-cache) |
 | | [Merge K Sorted Lists]() | 🔴 | [NeetCode Link](https://neetcode.io/problems/merge-k-sorted-linked-lists) |
