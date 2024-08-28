@@ -4,7 +4,7 @@
 Collection of leetcode problem solved for interview prep!
 
 ## Problems solved:
-- 🟢 Easy: 22
+- 🟢 Easy: 23
 - 🟠 Medium: 34
 - 🔴 Hard: 0
 
@@ -241,7 +241,7 @@ Collection of leetcode problem solved for interview prep!
 
 | Done | Problem | Difficulty | NeetCode Link |
 |------|---------|------------|---------------|
-| | [Single Number]() | 🟢 | [NeetCode Link](https://neetcode.io/problems/single-number) |
+| ✅ | [Single Number](https://github.com/fleece30/leetcode/blob/master/Bit%20Manipulation/Single%20Number.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/single-number) |
 | ✅ | [Number of 1 Bits](https://github.com/fleece30/leetcode/blob/master/Bit%20Manipulation/Number%20of%201%20Bits.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/number-of-one-bits) |
 | ✅ | [Counting Bits](https://github.com/fleece30/leetcode/blob/master/Bit%20Manipulation/Counting%20Bits.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/counting-bits) |
 | ✅ | [Reverse Bits](https://github.com/fleece30/leetcode/blob/master/Bit%20Manipulation/Reverse%20Bits.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/reverse-bits) |
