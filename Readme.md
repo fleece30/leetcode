@@ -4,7 +4,7 @@
 Collection of leetcode problem solved for interview prep!
 
 ## Problems solved:
-- 🟢 Easy: 20
+- 🟢 Easy: 22
 - 🟠 Medium: 34
 - 🔴 Hard: 0
 
@@ -231,8 +231,8 @@ Collection of leetcode problem solved for interview prep!
 | | [Rotate Image]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/rotate-matrix) |
 | | [Spiral Matrix]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/spiral-matrix) |
 | | [Set Matrix Zeroes]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/set-zeroes-in-matrix) |
-| | [Happy Number]() | 🟢 | [NeetCode Link](https://neetcode.io/problems/non-cyclical-number) |
-| | [Plus One]() | 🟢 | [NeetCode Link](https://neetcode.io/problems/plus-one) |
+| ✅ | [Happy Number](https://github.com/fleece30/leetcode/blob/master/Math/Happy%20Number.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/non-cyclical-number) |
+| ✅ | [Plus One](https://github.com/fleece30/leetcode/blob/master/Math/Plus%20One.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/plus-one) |
 | | [Pow(x, n)]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/pow-x-n) |
 | | [Multiply Strings]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/multiply-strings) |
 | | [Detect Squares]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/count-squares) |
