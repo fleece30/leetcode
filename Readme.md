@@ -5,7 +5,7 @@ Collection of leetcode problem solved for interview prep!
 
 ## Problems solved:
 - 🟢 Easy: 20
-- 🟠 Medium: 31
+- 🟠 Medium: 34
 - 🔴 Hard: 0
 
 ### Arrays & Hashing
@@ -94,9 +94,9 @@ Collection of leetcode problem solved for interview prep!
 | | [Balanced Binary Tree]() | 🟢 | [NeetCode Link](https://neetcode.io/problems/balanced-binary-tree) |
 | ✅ | [Same Tree](https://github.com/fleece30/leetcode/blob/master/Trees/Same%20Tree.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/same-binary-tree) |
 | ✅ | [Subtree of Another Tree](https://github.com/fleece30/leetcode/blob/master/Trees/Subtree%20of%20Another%20Tree.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/subtree-of-a-binary-tree) |
-| | [Lowest Common Ancestor of a Binary Search Tree]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/lowest-common-ancestor-in-binary-search-tree) |
-| | [Binary Tree Level Order Traversal]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/level-order-traversal-of-binary-tree) |
-| | [Binary Tree Right Side View]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/binary-tree-right-side-view) |
+| ✅ | [Lowest Common Ancestor of a Binary Search Tree](https://github.com/fleece30/leetcode/blob/master/Trees/Lowest%20Common%20Ancestor%20of%20a%20Binary%%20Tree.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/lowest-common-ancestor-in-binary-search-tree) |
+| ✅ | [Binary Tree Level Order Traversal](https://github.com/fleece30/leetcode/blob/master/Trees/Binary%20Tree%20Level%20Order%20Traversal.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/level-order-traversal-of-binary-tree) |
+| ✅ | [Binary Tree Right Side View](https://github.com/fleece30/leetcode/blob/master/Trees/Binary%20Tree%20Right%20Side%20View.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/binary-tree-right-side-view) |
 | | [Count Good Nodes In Binary Tree]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/count-good-nodes-in-binary-tree) |
 | | [Validate Binary Search Tree]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/valid-binary-search-tree) |
 | | [Kth Smallest Element In a Bst]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/kth-smallest-integer-in-bst) |
