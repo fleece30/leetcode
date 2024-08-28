@@ -4,7 +4,7 @@
 Collection of leetcode problem solved for interview prep!
 
 ## Problems solved:
-- 🟢 Easy: 24
+- 🟢 Easy: 25
 - 🟠 Medium: 34
 - 🔴 Hard: 0
 
@@ -91,7 +91,7 @@ Collection of leetcode problem solved for interview prep!
 | ✅ | [Invert Binary Tree](https://github.com/fleece30/leetcode/blob/master/Trees/Invert%20Binary%20Tree.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/invert-a-binary-tree) |
 | ✅ | [Maximum Depth of Binary Tree](https://github.com/fleece30/leetcode/blob/master/Trees/Maximum%20Depth%20of%20Binary%20Tree.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/depth-of-binary-tree) |
 | ✅ | [Diameter of Binary Tree](https://github.com/fleece30/leetcode/blob/master/Trees/Diameter%20of%20Binary%20Tree.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/binary-tree-diameter) |
-| | [Balanced Binary Tree]() | 🟢 | [NeetCode Link](https://neetcode.io/problems/balanced-binary-tree) |
+| ✅ | [Balanced Binary Tree](https://github.com/fleece30/leetcode/blob/master/Trees/Balanced%20Binary%20Tree.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/balanced-binary-tree) |
 | ✅ | [Same Tree](https://github.com/fleece30/leetcode/blob/master/Trees/Same%20Tree.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/same-binary-tree) |
 | ✅ | [Subtree of Another Tree](https://github.com/fleece30/leetcode/blob/master/Trees/Subtree%20of%20Another%20Tree.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/subtree-of-a-binary-tree) |
 | ✅ | [Lowest Common Ancestor of a Binary Search Tree](https://github.com/fleece30/leetcode/blob/master/Trees/Lowest%20Common%20Ancestor%20in%20Binary%20Search%20Tree.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/lowest-common-ancestor-in-binary-search-tree) |
