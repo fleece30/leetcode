@@ -4,7 +4,7 @@
 Collection of leetcode problem solved for interview prep!
 
 ## Problems solved:
-- 🟢 Easy: 25
+- 🟢 Easy: 26
 - 🟠 Medium: 34
 - 🔴 Hard: 0
 
@@ -109,7 +109,7 @@ Collection of leetcode problem solved for interview prep!
 | Done | Problem | Difficulty | NeetCode Link |
 |------|---------|------------|---------------|
 | | [Kth Largest Element In a Stream]() | 🟢 | [NeetCode Link](https://neetcode.io/problems/kth-largest-integer-in-a-stream) |
-| | [Last Stone Weight]() | 🟢 | [NeetCode Link](https://neetcode.io/problems/last-stone-weight) |
+| ✅ | [Last Stone Weight](https://github.com/fleece30/leetcode/blob/master/Heaps/Last%20Stone%20Weight.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/last-stone-weight) |
 | | [K Closest Points to Origin]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/k-closest-points-to-origin) |
 | | [Kth Largest Element In An Array]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/kth-largest-element-in-an-array) |
 | | [Task Scheduler]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/task-scheduling) |
