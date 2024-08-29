@@ -5,7 +5,7 @@ Collection of leetcode problem solved for interview prep!
 
 ## Problems solved:
 - 🟢 Easy: 26
-- 🟠 Medium: 35
+- 🟠 Medium: 36
 - 🔴 Hard: 0
 
 ### Arrays & Hashing
@@ -75,7 +75,7 @@ Collection of leetcode problem solved for interview prep!
 | ✅ | [Reverse Linked List](https://github.com/fleece30/leetcode/blob/master/Linked%20List/Reverse%20Linked%20List.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/reverse-a-linked-list) |
 | ✅ | [Merge Two Sorted Lists](https://github.com/fleece30/leetcode/blob/master/Linked%20List/Merge%202%20sorted%20lists.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/merge-two-sorted-linked-lists) |
 | ✅ | [Reorder List](https://github.com/fleece30/leetcode/blob/master/Linked%20List/Reorder%20List.md) | 🟠🔴 -> Review | [NeetCode Link](https://neetcode.io/problems/reorder-linked-list) |
-| | [Remove Nth Node From End of List]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/remove-node-from-end-of-linked-list) |
+| ✅ | [Remove Nth Node From End of List](https://github.com/fleece30/leetcode/blob/master/Linked%20List/Remove%20Nth%20Node%20From%20End%20of%20List.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/remove-node-from-end-of-linked-list) |
 | | [Copy List With Random Pointer]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/copy-linked-list-with-random-pointer) |
 | | [Add Two Numbers]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/add-two-numbers) |
 | ✅ | [Linked List Cycle](https://github.com/fleece30/leetcode/blob/master/Linked%20List/Linked%20list%20has%20cycle.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/linked-list-cycle-detection) |
