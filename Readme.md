@@ -5,7 +5,7 @@ Collection of leetcode problem solved for interview prep!
 
 ## Problems solved:
 - 🟢 Easy: 26
-- 🟠 Medium: 40
+- 🟠 Medium: 41
 - 🔴 Hard: 0
 
 ### Arrays & Hashing
@@ -77,7 +77,7 @@ Collection of leetcode problem solved for interview prep!
 | ✅ | [Reorder List](https://github.com/fleece30/leetcode/blob/master/Linked%20List/Reorder%20List.md) | 🟠🔴 -> Review | [NeetCode Link](https://neetcode.io/problems/reorder-linked-list) |
 | ✅ | [Remove Nth Node From End of List](https://github.com/fleece30/leetcode/blob/master/Linked%20List/Remove%20Nth%20Node%20From%20End%20of%20List.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/remove-node-from-end-of-linked-list) |
 | ✅ | [Copy List With Random Pointer](https://github.com/fleece30/leetcode/blob/master/Linked%20List/Copy%20List%20with%20Random%20Pointer.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/copy-linked-list-with-random-pointer) |
-| | [Add Two Numbers]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/add-two-numbers) |
+| ✅ | [Add Two Numbers](https://github.com/fleece30/leetcode/blob/master/Linked%20List/Add%20Two%20Numbers.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/add-two-numbers) |
 | ✅ | [Linked List Cycle](https://github.com/fleece30/leetcode/blob/master/Linked%20List/Linked%20list%20has%20cycle.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/linked-list-cycle-detection) |
 | | [Find The Duplicate Number]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/find-duplicate-integer) |
 | ✅ | [LRU Cache](https://github.com/fleece30/leetcode/blob/master/Linked%20List/LRU%20Cache.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/lru-cache) |
