@@ -5,7 +5,7 @@ Collection of leetcode problem solved for interview prep!
 
 ## Problems solved:
 - 🟢 Easy: 26
-- 🟠 Medium: 39
+- 🟠 Medium: 40
 - 🔴 Hard: 0
 
 ### Arrays & Hashing
@@ -98,7 +98,7 @@ Collection of leetcode problem solved for interview prep!
 | ✅ | [Binary Tree Level Order Traversal](https://github.com/fleece30/leetcode/blob/master/Trees/Level%20Order%20Traversal%20of%20Binary%20Tree.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/level-order-traversal-of-binary-tree) |
 | ✅ | [Binary Tree Right Side View](https://github.com/fleece30/leetcode/blob/master/Trees/Binary%20Tree%20Right%20Side%20View.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/binary-tree-right-side-view) |
 | | [Count Good Nodes In Binary Tree]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/count-good-nodes-in-binary-tree) |
-| | [Validate Binary Search Tree]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/valid-binary-search-tree) |
+| ✅ | [Validate Binary Search Tree](https://github.com/fleece30/leetcode/blob/master/Trees/Validate%20Binary%20Search%20Tree.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/valid-binary-search-tree) |
 | ✅ | [Kth Smallest Element In a Bst](https://github.com/fleece30/leetcode/blob/master/Trees/Kth%20Smallest%20Element%20in%20a%20BST.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/kth-smallest-integer-in-bst) |
 | | [Construct Binary Tree From Preorder And Inorder Traversal]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/binary-tree-from-preorder-and-inorder-traversal) |
 | | [Binary Tree Maximum Path Sum]() | 🔴 | [NeetCode Link](https://neetcode.io/problems/binary-tree-maximum-path-sum) |
