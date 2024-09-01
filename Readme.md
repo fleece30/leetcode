@@ -5,7 +5,7 @@ Collection of leetcode problem solved for interview prep!
 
 ## Problems solved:
 - 🟢 Easy: 26
-- 🟠 Medium: 41
+- 🟠 Medium: 42
 - 🔴 Hard: 0
 
 ### Arrays & Hashing
@@ -110,7 +110,7 @@ Collection of leetcode problem solved for interview prep!
 |------|---------|------------|---------------|
 | | [Kth Largest Element In a Stream]() | 🟢 | [NeetCode Link](https://neetcode.io/problems/kth-largest-integer-in-a-stream) |
 | ✅ | [Last Stone Weight](https://github.com/fleece30/leetcode/blob/master/Heaps/Last%20Stone%20Weight.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/last-stone-weight) |
-| | [K Closest Points to Origin]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/k-closest-points-to-origin) |
+| ✅ | [K Closest Points to Origin](https://github.com/fleece30/leetcode/blob/master/Heaps/K%20Closest%20Points%20to%20Origin.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/k-closest-points-to-origin) |
 | | [Kth Largest Element In An Array]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/kth-largest-element-in-an-array) |
 | | [Task Scheduler]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/task-scheduling) |
 | | [Design Twitter]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/design-twitter-feed) |
