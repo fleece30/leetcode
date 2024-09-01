@@ -6,7 +6,7 @@ Note that it is the kth largest element in the sorted order, not the kth distinc
 Can you solve it without sorting?
 
 ## Tags
-- Max heap
+- Mix heap
 
 ## Strat
 Keep min heap of size k. After iterating through all elements, the num at the root of heap will be the kth smallest.
