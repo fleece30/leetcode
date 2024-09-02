@@ -5,7 +5,7 @@ Collection of leetcode problem solved for interview prep!
 
 ## Problems solved:
 - 🟢 Easy: 27
-- 🟠 Medium: 43
+- 🟠 Medium: 44
 - 🔴 Hard: 0
 
 ### Arrays & Hashing
@@ -79,7 +79,7 @@ Collection of leetcode problem solved for interview prep!
 | ✅ | [Copy List With Random Pointer](https://github.com/fleece30/leetcode/blob/master/Linked%20List/Copy%20List%20with%20Random%20Pointer.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/copy-linked-list-with-random-pointer) |
 | ✅ | [Add Two Numbers](https://github.com/fleece30/leetcode/blob/master/Linked%20List/Add%20Two%20Numbers.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/add-two-numbers) |
 | ✅ | [Linked List Cycle](https://github.com/fleece30/leetcode/blob/master/Linked%20List/Linked%20list%20has%20cycle.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/linked-list-cycle-detection) |
-| | [Find The Duplicate Number]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/find-duplicate-integer) |
+| ✅ | [Find The Duplicate Number](https://github.com/fleece30/leetcode/blob/master/Linked%20List/Find%20The%20Duplicate%20Number.md) | 🟠🔴 -> Review | [NeetCode Link](https://neetcode.io/problems/find-duplicate-integer) |
 | ✅ | [LRU Cache](https://github.com/fleece30/leetcode/blob/master/Linked%20List/LRU%20Cache.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/lru-cache) |
 | | [Merge K Sorted Lists]() | 🔴 | [NeetCode Link](https://neetcode.io/problems/merge-k-sorted-linked-lists) |
 | | [Reverse Nodes In K Group]() | 🔴 | [NeetCode Link](https://neetcode.io/problems/reverse-nodes-in-k-group) |
