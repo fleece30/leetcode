@@ -4,7 +4,7 @@
 Collection of leetcode problem solved for interview prep!
 
 ## Problems solved:
-- 🟢 Easy: 27
+- 🟢 Easy: 28
 - 🟠 Medium: 44
 - 🔴 Hard: 0
 
@@ -172,7 +172,7 @@ Collection of leetcode problem solved for interview prep!
 | Done | Problem | Difficulty | NeetCode Link |
 |------|---------|------------|---------------|
 | ✅ | [Climbing Stairs](https://github.com/fleece30/leetcode/blob/master/1-D%20DP/Climbing%20Stairs.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/climbing-stairs) |
-| | [Min Cost Climbing Stairs]() | 🟢 | [NeetCode Link](https://neetcode.io/problems/min-cost-climbing-stairs) |
+| ✅ | [Min Cost Climbing Stairs](https://github.com/fleece30/leetcode/blob/master/1-D%20DP/Min%20Cost%20Climbing%20Stairs.md) | 🟢 | [NeetCode Link](https://neetcode.io/problems/min-cost-climbing-stairs) |
 | | [House Robber]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/house-robber) |
 | | [House Robber II]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/house-robber-ii) |
 | | [Longest Palindromic Substring]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/longest-palindromic-substring) |
