@@ -5,7 +5,7 @@ Collection of leetcode problem solved for interview prep!
 
 ## Problems solved:
 - 🟢 Easy: 28
-- 🟠 Medium: 44
+- 🟠 Medium: 45
 - 🔴 Hard: 0
 
 ### Arrays & Hashing
@@ -120,7 +120,7 @@ Collection of leetcode problem solved for interview prep!
 
 | Done | Problem | Difficulty | NeetCode Link |
 |------|---------|------------|---------------|
-| | [Subsets]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/subsets) |
+| ✅ | [Subsets](https://github.com/fleece30/leetcode/blob/master/Backtracking/Subsets.md) | 🟠 | [NeetCode Link](https://neetcode.io/problems/subsets) |
 | | [Combination Sum]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/combination-target-sum) |
 | | [Permutations]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/permutations) |
 | | [Subsets II]() | 🟠 | [NeetCode Link](https://neetcode.io/problems/subsets-ii) |
