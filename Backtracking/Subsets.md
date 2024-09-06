@@ -11,8 +11,8 @@ For each number, can either include it or not. So check both paths
 
 ## Complexity
 
-- Time: O(2^n * n)
-- Space: O(2^n * n)
+- Time: O(2^n)
+- Space: O(2^n)
 
 ## Code
 
@@ -20,14 +20,19 @@ For each number, can either include it or not. So check both paths
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         res = []
-        
-        def backtrack(start, current):
-            res.append(current[:])
-            for i in range(start, len(nums)):
-                current.append(nums[i])
-                backtrack(i + 1, current)
-                current.pop()
-        
-        backtrack(0, [])
+
+        subset = []
+
+        def dfs(i):
+            if i >= len(nums):
+                res.append(subset.copy())
+                return
+            subset.append(nums[i])
+            dfs(i + 1)
+            subset.pop()
+            dfs(i + 1)
+
+        dfs(0)
         return res
+
 ```
