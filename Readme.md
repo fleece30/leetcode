@@ -5,7 +5,7 @@ Collection of leetcode problem solved for interview prep!
 
 ## Problems solved:
 - 🟢 Easy: 28
-- 🟠 Medium: 48
+- 🟠 Medium: 49
 - 🔴 Hard: 0
 
 ### Arrays & Hashing
@@ -124,7 +124,7 @@ Collection of leetcode problem solved for interview prep!
 | ✅ | [Subsets](https://github.com/fleece30/leetcode/blob/master/Backtracking/Subsets.md) | 🟠 | [Solution Link](https://neetcode.io/problems/subsets) |
 | ✅ | [Combination Sum](https://github.com/fleece30/leetcode/blob/master/Backtracking/Combination%20Sum.md) | 🟠 | [Solution Link](https://neetcode.io/problems/combination-target-sum) |
 | | [Permutations]() | 🟠 | [Solution Link](https://neetcode.io/problems/permutations) |
-| | [Subsets II]() | 🟠 | [Solution Link](https://neetcode.io/problems/subsets-ii) |
+| ✅ | [Subsets II](https://github.com/fleece30/leetcode/blob/master/Backtracking/Subsets%20II.md) | 🟠 | [Solution Link](https://neetcode.io/problems/subsets-ii) |
 | ✅ | [Combination Sum II](https://github.com/fleece30/leetcode/blob/master/Backtracking/Combination%20Sum%20II.md) | 🟠 | [Solution Link](https://neetcode.io/problems/combination-target-sum-ii) |
 | | [Word Search]() | 🟠 | [Solution Link](https://neetcode.io/problems/search-for-word) |
 | | [Palindrome Partitioning]() | 🟠 | [Solution Link](https://neetcode.io/problems/palindrome-partitioning) |
