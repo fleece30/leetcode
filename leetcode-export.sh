@@ -72,8 +72,8 @@ files=("$SRC"/*.py)
 
 for f in "${files[@]}"; do
   base=$(basename "$f")
-  # <id>.<slug>.<lang>.py ; only python variants
-  [[ "$base" =~ ^([0-9]+)\.(.+)\.(python3?|python)[0-9]*\.py$ ]] || { echo "skip (not python): $base"; continue; }
+  # <id>.<slug>.py (python3) or <id>.<slug>.python[N].py ; skip other languages
+  [[ "$base" =~ ^([0-9]+)\.([^.]+)(\.python[0-9]*)?\.py$ ]] || { echo "skip (not python): $base"; continue; }
   id="${BASH_REMATCH[1]}"; slug="${BASH_REMATCH[2]}"
   out="$OUT/$(printf '%04d' "$id")-$slug.md"
 
