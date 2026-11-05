@@ -53,21 +53,23 @@ If there is no common prefix, return an empty string `""`.
 
 ## Strat
 
-The provided code is an empty function stub with no implementation. A typical approach would compare characters of the strings column by column (or shrink a prefix taken from the first string) until a mismatch occurs.
+Take the first string as reference and scan it character by character. For each index, compare that character against the same index in every other string. Return the prefix up to that index as soon as any string is too short or has a different character; if no mismatch is found, the whole first string is the prefix.
 
 ## Complexity
 
-- Time: O(1)
+- Time: O(S) where S is the total number of characters across all strings (worst case O(n*m))
 - Space: O(1)
 
 ## Code
 
 ```python
-class Solution(object):
-    def longestCommonPrefix(self, strs):
-        """
-        :type strs: List[str]
-        :rtype: str
-        """
-        
+class Solution:
+    def longestCommonPrefix(self, strs: list[str]) -> str:
+        first = strs[0]
+        for i in range(len(first)):
+            c = first[i]
+            for s in strs[1:]:
+                if i == len(s) or s[i] != c:
+                    return first[:i]
+        return first
 ```
