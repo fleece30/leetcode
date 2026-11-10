@@ -5,7 +5,7 @@ Collection of leetcode problems solved for interview prep!
 Problems solved:
 
 - 🟢 Easy: 6
-- 🟠 Medium: 0
+- 🟠 Medium: 1
 - 🔴 Hard: 0
 
 ## Arrays & Hashing
@@ -17,6 +17,7 @@ Problems solved:
 | ✅ | Contains Duplicate | 🟢 | [Solution](0217-contains-duplicate.md) |
 | ✅ | Valid Anagram | 🟢 | [Solution](0242-valid-anagram.md) |
 | ✅ | Concatenation of Array | 🟢 | [Solution](1929-concatenation-of-array.md) |
+| ✅ | Group Anagrams | 🟠 | [Solution](0049-group-anagrams.md) |
 
 ## Two Pointers
 
