@@ -4,7 +4,7 @@ Collection of leetcode problems solved for interview prep!
 
 Problems solved:
 
-- 🟢 Easy: 7
+- 🟢 Easy: 8
 - 🟠 Medium: 1
 - 🔴 Hard: 0
 
@@ -17,6 +17,7 @@ Problems solved:
 | ✅ | Majority Element | 🟢 | [Solution](0169-majority-element.md) |
 | ✅ | Contains Duplicate | 🟢 | [Solution](0217-contains-duplicate.md) |
 | ✅ | Valid Anagram | 🟢 | [Solution](0242-valid-anagram.md) |
+| ✅ | Design HashSet | 🟢 | [Solution](0705-design-hashset.md) |
 | ✅ | Concatenation of Array | 🟢 | [Solution](1929-concatenation-of-array.md) |
 | ✅ | Group Anagrams | 🟠 | [Solution](0049-group-anagrams.md) |
 
