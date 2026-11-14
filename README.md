@@ -5,7 +5,7 @@ Collection of leetcode problems solved for interview prep!
 Problems solved:
 
 - 🟢 Easy: 9
-- 🟠 Medium: 3
+- 🟠 Medium: 4
 - 🔴 Hard: 0
 
 ## Arrays & Hashing
@@ -28,6 +28,7 @@ Problems solved:
 | Done | Problem | Difficulty | Solution Link |
 |:-:|---|:-:|---|
 | ✅ | Remove Element | 🟢 | [Solution](0027-remove-element.md) |
+| ✅ | Sort Colors | 🟠 | [Solution](0075-sort-colors.md) |
 
 ## Heap / Priority Queue
 
