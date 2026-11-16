@@ -66,6 +66,28 @@ Reply with ONLY a JSON object (no code fences) with keys:
   sed -e '/^```/d'
 }
 
+ask_claude_full() {  # $1 = slug, $2 = code ; used when LeetCode content is unavailable
+  local prompt
+  prompt="I solved the LeetCode problem with slug \"$1\" but its description could not be fetched (likely a locked/premium question).
+
+Solution (Python):
+$2
+
+Write the problem description yourself, in the style of the LeetCode statement (markdown: description, **Example N:** blocks with **Input:**/**Output:**, **Constraints:**). Infer the problem from the slug and the code.
+
+Reply with ONLY a JSON object (no code fences) with keys:
+\"title\": the problem title,
+\"difficulty\": exactly one of Easy, Medium, Hard,
+\"tags\": array of LeetCode topic tag names, e.g. [\"Array\", \"Hash Table\"],
+\"statement\": the markdown problem description,
+\"category\": the single best fit from exactly this list: $CATEGORIES,
+\"strat\": 1-3 sentence plain-English explanation of the approach used by THIS code,
+\"time\": big-O time complexity of this code, e.g. \"O(n)\",
+\"space\": big-O space complexity of this code, e.g. \"O(1)\"."
+  claude -p --model "$MODEL" "$prompt" </dev/null |
+  sed -e '/^```/d'
+}
+
 shopt -s nullglob
 files=("$SRC"/*.py)
 ((${#files[@]})) || { echo "No .py files in $SRC"; exit 0; }
@@ -84,16 +106,26 @@ for f in "${files[@]}"; do
   if [[ -z "${code//[[:space:]]/}" ]]; then echo "skip (empty): $base"; continue; fi
 
   echo "processing: $id $slug"
-  if ! q=$(fetch_problem "$slug") || [[ "$(jq -r '.data.question' <<<"$q")" == "null" ]]; then
-    echo "  LeetCode fetch failed for $slug" >&2; continue
-  fi
-  title=$(jq -r '.data.question.title' <<<"$q")
-  difficulty=$(jq -r '.data.question.difficulty' <<<"$q")
-  tags=$(jq -r '.data.question.topicTags[].name | "- " + .' <<<"$q")
-  statement=$(jq -r '.data.question.content' <<<"$q" | html2md)
+  if q=$(fetch_problem "$slug") && [[ "$(jq -r '.data.question' <<<"$q")" != "null" ]] \
+     && [[ "$(jq -r '.data.question.content' <<<"$q")" != "null" ]]; then
+    title=$(jq -r '.data.question.title' <<<"$q")
+    difficulty=$(jq -r '.data.question.difficulty' <<<"$q")
+    tags=$(jq -r '.data.question.topicTags[].name | "- " + .' <<<"$q")
+    statement=$(jq -r '.data.question.content' <<<"$q" | html2md)
 
-  if ! ans=$(ask_claude "$title" "$code") || ! jq -e . >/dev/null 2>&1 <<<"$ans"; then
-    echo "  Claude call failed for $slug" >&2; continue
+    if ! ans=$(ask_claude "$title" "$code") || ! jq -e . >/dev/null 2>&1 <<<"$ans"; then
+      echo "  Claude call failed for $slug" >&2; continue
+    fi
+  else
+    # Fetch failed (e.g. locked/premium question): have Claude write the description itself
+    echo "  LeetCode fetch failed for $slug (locked?) - asking Claude to write the description"
+    if ! ans=$(ask_claude_full "$slug" "$code") || ! jq -e . >/dev/null 2>&1 <<<"$ans"; then
+      echo "  Claude call failed for $slug" >&2; continue
+    fi
+    title=$(jq -r '.title' <<<"$ans")
+    difficulty=$(jq -r '.difficulty' <<<"$ans")
+    tags=$(jq -r '.tags[] | "- " + .' <<<"$ans")
+    statement=$(jq -r '.statement' <<<"$ans")
   fi
   strat=$(jq -r '.strat' <<<"$ans")
   tc=$(jq -r '.time' <<<"$ans")
