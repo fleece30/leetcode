@@ -5,7 +5,7 @@ Collection of leetcode problems solved for interview prep!
 Problems solved:
 
 - 🟢 Easy: 9
-- 🟠 Medium: 4
+- 🟠 Medium: 5
 - 🔴 Hard: 0
 
 ## Arrays & Hashing
@@ -21,6 +21,7 @@ Problems solved:
 | ✅ | Design HashMap | 🟢 | [Solution](0706-design-hashmap.md) |
 | ✅ | Concatenation of Array | 🟢 | [Solution](1929-concatenation-of-array.md) |
 | ✅ | Group Anagrams | 🟠 | [Solution](0049-group-anagrams.md) |
+| ✅ | Top K Frequent Elements | 🟠 | [Solution](0347-top-k-frequent-elements.md) |
 | ✅ | Sort an Array | 🟠 | [Solution](0912-sort-an-array-merge-sort.md) |
 
 ## Two Pointers
